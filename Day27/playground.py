@@ -1,10 +1,6 @@
 #Adding arguments using *args (Unlimited Arguments)
 
 
-
-from pyexpat import model
-
-
 def add(*args):
     sum = 0
     for num in args:
